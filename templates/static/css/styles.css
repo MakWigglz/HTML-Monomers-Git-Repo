@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.block {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.block:hover {
+    transform: scale(1.1);
+}
+.red { background-color: #e74c3c; }
+.green { background-color: #2ecc71; }
+.blue { background-color: #3498db; }
+.yellow { background-color: #f1c40f; }
+.purple { background-color: #9b59b6; }
+.orange { background-color: #e67e22; }
+.teal { background-color: #1abc9c; }
