@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+blob-store
+compile-cache
+dev
+storage
+.apm
+.node-gyp
+.npm
+.atom-socket-secret-*
